@@ -1,5 +1,5 @@
 {% set name = "goawk" %}
-{% set version = "1.27.0" %}
+{% set version = "1.29.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/benhoyt/goawk/archive/v{{ version }}.tar.gz
-  sha256: f39d5b3ff50f3c16cbfaaa40eb01ec045092afa66988e9728661c65c0e5d6a93
+  sha256: 91bf708ad6776bea7e1fbd1a0969042de8ebc3139b89468a2a1f5405f3401f54
 
 build:
   number: 0
