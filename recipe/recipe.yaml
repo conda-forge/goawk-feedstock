@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.31.0"
+  version: "1.32.0"
 
 package:
   name: goawk
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/benhoyt/goawk/archive/v${{ version }}.tar.gz
-  sha256: 2df274d8680a9405646b0729b6465b8952f795f118358cf8a25fe1526cbd0909
+  sha256: 5425248c199bf506987af0deff9109bbdeecfb723f11b30c712c54a10b78f1a9
 
 build:
   number: 0
